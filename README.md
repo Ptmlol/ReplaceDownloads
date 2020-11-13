@@ -24,4 +24,4 @@ in the terminal instead of the "forward" command if you want to use your own com
 
 >echo 1 > /proc/sys/net/ipv4/ip_forward 
 
--enables portforwarding
+enables portforwarding

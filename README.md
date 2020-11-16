@@ -13,9 +13,8 @@ You need to enable port forwarding on Linux and queue iptables
 Use:
 >iptables -I FORWARD -j NFQUEUE --queue-num 0    
 
-without the # for queueing iptables.
-
 Use:
+
 >iptables -I INPUT -j NFQUEUE --queue-num 0
 
 >iptables -I OUTPUT -j NFQUEUE --queue-num 0

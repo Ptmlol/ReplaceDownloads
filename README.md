@@ -1,11 +1,11 @@
 # ReplaceDownloads
 
-Linux Terminal program used to replace download files from a website and trick the target into downloading your own malware files located on another URL.
+Terminal program used to replace download files from a website and trick the target into downloading your own malware files located on another URL.
 Change  "Download URL for exe" on line 30 with your own download URL.
 
-Only works on HTTP/Linux at the moment.
+Works with Linux/Windows.
 Python2.7 + compatible.
-Windows/HTTPS coming soon..
+Use sslstrip for certain HTTPS websites.
 Used well with MITM programs.
 
 
